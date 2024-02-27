@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# kills the pid of the highlander script
+
+pkill -9 -f ./7-highlander
