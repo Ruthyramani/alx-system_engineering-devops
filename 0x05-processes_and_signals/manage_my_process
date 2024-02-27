@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# writes I am alive to a tmp file in /tmp
+# writes I am alive to a tmp file in /tmp/my_process
 
-trap "exit" SIGTERM
 
 while true
 do
-	echo -e "I am alive!" >> /tmp/my_process
-	sleep 2
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
 done
